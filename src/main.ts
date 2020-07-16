@@ -1,9 +1,3 @@
-import { sayHello } from './Calcualtor';
+import { Trader } from './Trader';
 
-console.log(sayHello('TypeScript'));
-
-function hello(compiler: string) {
-    console.log(`Hello from ${compiler}`);
-}
-
-hello('TypeScript');
+const trader = new Trader();

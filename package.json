@@ -26,5 +26,8 @@
     "ts-node": "^8.10.2",
     "typescript": "^3.9.6"
   },
-  "dependencies": {}
+  "dependencies": {
+    "machinelearn": "^2.1.5",
+    "robinhood": "^1.6.5"
+  }
 }

@@ -1,11 +1,11 @@
 {
   "files": [
     "src/main.ts",
-    "src/Calculator.ts"
+    "src/Trader.ts"
   ],
   "compilerOptions": {
   	"module": "commonjs",
-    "target": "es2015",
+    "target": "es2019",
   	"sourceMap": true,
     "noImplicitAny": true,
   	"isolatedModules": true

@@ -1,7 +1,7 @@
 import { expect } from 'chai';
-import Calculator from '../src/Calculator';
+import Calculator from '../src/Trader';
 
-describe("Calculator", () => {
+describe("Trader", () => {
     describe("Add", () => {
         it("Should return 3 when a = 1 and b = 2", () => {
             let calc = new Calculator();

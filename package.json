@@ -1,0 +1,30 @@
+{
+  "name": "autotrader",
+  "version": "1.0.0",
+  "description": "Automatic Stock Trading Engine using ML.",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require ts-node/register ./test/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joracine/AutoTrader.git"
+  },
+  "author": "J-O Racine",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/joracine/AutoTrader/issues"
+  },
+  "homepage": "https://github.com/joracine/AutoTrader#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^8.0.0",
+    "chai": "^4.2.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "mocha": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,13 @@
+{
+  "files": [
+    "src/main.ts",
+    "src/Calculator.ts"
+  ],
+  "compilerOptions": {
+  	"module": "commonjs",
+    "target": "es2015",
+  	"sourceMap": true,
+    "noImplicitAny": true,
+  	"isolatedModules": true
+  }
+}
